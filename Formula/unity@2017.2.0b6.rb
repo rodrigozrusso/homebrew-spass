@@ -14,7 +14,7 @@ class UnityAT201720b6 < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
 
     # Remove unrecognized options if warned by configure
-    system "installer", "-dumplog", "-package", "Unity.pkg", "-target", "/"
+    system "installer", "-dumplog", "-package", "Unity-2017.2.0b6.pkg", "-target", "/"
     # system "./configure", "--disable-debug",
     #                       "--disable-dependency-tracking",
     #                       "--disable-silent-rules",
